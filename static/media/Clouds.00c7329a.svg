@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91.051" height="65.477" viewBox="0 0 91.051 65.477">
+  <g id="Gruppe_2595" data-name="Gruppe 2595" transform="translate(-10.438 0.001)">
+    <g id="cloudy" transform="translate(10.438 -0.001)">
+      <path id="Pfad_4898" data-name="Pfad 4898" d="M24,83.7A12.691,12.691,0,0,0,36.676,96.375H80.887a16.079,16.079,0,0,0,3.589-31.751,17.211,17.211,0,0,0-32.695-6.678A13.819,13.819,0,0,0,34.2,71.266,12.7,12.7,0,0,0,24,83.7Z" transform="translate(-24 -48.21)" fill="#7cb5d8"/>
+      <path id="Pfad_4899" data-name="Pfad 4899" d="M46.2,242.068a9.1,9.1,0,0,0-13.057-9.9,11.825,11.825,0,0,0-23.092,4.484,10.9,10.9,0,0,0,.862,21.764H46.383a8.175,8.175,0,1,0-.182-16.348Z" transform="translate(36.482 -192.939)" fill="#f0f1f2"/>
+    </g>
+    <line id="Linie_165" data-name="Linie 165" x1="26.209" transform="translate(59.39 16.729)" fill="none" stroke="#f0f1f2" stroke-linecap="round" stroke-width="3"/>
+    <line id="Linie_166" data-name="Linie 166" x1="26.209" transform="translate(72.495 24.289)" fill="none" stroke="#f0f1f2" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>
