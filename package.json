@@ -1,7 +1,7 @@
 {
   "name": "intro_page_holidayfind",
+  "homepage": "https://alwast2003.github.io/intro",
   "version": "0.1.0",
-
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.5.0",
