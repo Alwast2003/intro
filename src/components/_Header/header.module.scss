@@ -1,0 +1,43 @@
+.main_header {
+    position: fixed;
+    width: 100%;
+    height: 63px;
+    background: #ffffff;
+    box-shadow: 0 8px 21px rgba(0, 0, 0, 0.44);   
+
+    @media (max-width: 800px) {
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        box-shadow: 0 0 0;
+        height: max-content;
+        width: 94%;
+        margin: 0 auto;
+    }
+}
+.logo {   
+    position: absolute;
+    left: 150px;
+    top: 0;
+    width: 25%;
+
+    @media (max-width: 800px) {
+        position: static;
+        width: 100%;
+        max-width: 500px;
+    }
+}
+.logo img {
+    display: block;
+    width: 100%; 
+    height: auto;
+}
+.logo_link {
+    /* position: absolute; */
+    left: 10%;
+    top: 9%;
+    right: 11%;
+    bottom: 33%;
+}

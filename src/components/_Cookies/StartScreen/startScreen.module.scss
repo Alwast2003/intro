@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300,500,600,700,800");
+
+.chooseCookie {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #26ba99;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 52%;
+  height: 165px;
+  z-index: 1000;
+}
+/* ================================================================= */
+.chooseCookie__text {
+  height: 100%;
+  background-color: #26ba99;
+  padding: 25px;
+  width: 58%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.chooseCookie__text h3 {
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.chooseCookie__text > p {
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 1.02em;
+  line-height: 1.25;
+  font-weight: 500;
+  -webkit-font-smoothing: none;
+}
+.chooseCookie__text p a {
+  text-decoration: none;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fff;
+}
+.classToClick {
+  height: auto;
+}
+.classToClick .chooseCookie__cookiesMenu {
+  display: block;
+  background-color: #fff;
+  padding: 10px 5px 10px 20px;
+}
+
+.chooseCookie__cookiesMenu {
+  display: none;
+}
+.chooseCookie__cookiesMenu .checkbox_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.chooseCookie__cookiesMenu .checkbox_block label {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.chooseCookie__cookiesMenu .checkbox_block input {
+  margin-right: 8px;
+  width: 15px;
+  height: 15px;
+  visibility: hidden;
+}
+
+.chooseCookie__cookiesMenu .checkbox_block label::before {
+  display: block;
+  content: "";
+  width: 18px;
+  top: 0;
+  height: 18px;
+  position: absolute;  
+  border-radius: 5px;
+  background-image: url("./images/checkbox_unchecked.svg");
+}
+#checkedCookieParam::before {
+  background-image: url("./images/checkbox_checked.svg");
+}
+
+.chooseCookie__cookiesMenu .text p {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.chooseCookie__cookiesMenu .text h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #000000;
+}
+
+.btn_agree_cookies {
+  display: flex;
+  justify-content: space-around;
+}
+.btn_agree_cookies button {
+  display: block;
+  border: 2px solid rgb(93, 162, 241);
+  width: 150px;
+  height: 30px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  font-family: 'Open Sans Condensed';
+  font-weight: normal;
+}
+.btn_agree_cookies button:hover {
+  background-color: #8ccc03;
+  color: #fff;
+}
+/* =================================================================== */
+.chooseCookie__buttons {
+  margin: 14px 30px 14px 0;
+}
+
+.chooseCookie__buttons button:first-child {
+  margin-bottom: 5px;
+}
+
+.chooseCookie__buttons button {
+  display: block;
+  border: 2px solid #fff;
+  width: 120px;
+  height: 60px;
+  background-color: #8ccc03;
+  font-family: 'Open Sans condensed', sans-serif;
+  color: #fff;
+  font-size: 1.1em;
+}
+/* ================================================================ */
+
+@media (min-width: 1415px) and (max-width: 1460px) {
+  .chooseCookie__text {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1415px) {
+  .chooseCookie__text {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .chooseCookie__text {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1155px) {
+  .chooseCookie__text {
+    width: 73%;
+  }
+
+  .chooseCookie__text h3 {
+    color: #fff;
+    font-size: 1.175em;
+    font-weight: 700;
+  }
+  .chooseCookie__text > p {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 0.97em;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .chooseCookie {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  /* .chooseCookie__text{
+  width: 60%;
+  } */
+
+  /* .chooseCookie__text h3 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 700;
+  }
+  .chooseCookie__text > p {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: 500;
+  } */
+}
+
+@media screen and (max-width: 850px) {
+  .chooseCookie__text {
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+  }
+
+  .chooseCookie__buttons {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .chooseCookie__buttons button {
+    display: block;
+    border: 2px solid #fff;
+    width: 100px;
+    height: 40px;
+    background-color: #8ccc03;
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 17px;
+  }
+
+  .chooseCookie__buttons button:first-child {
+    margin: 0;
+  }
+
+  .chooseCookie__text h3 {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .chooseCookie__text > p {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 0.89em;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 800px) and (min-height: 700px) {
+  .chooseCookie {
+    top: 540px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .chooseCookie {
+    width: calc(100% - 90px);
+    /* z-index: 10; */
+  }
+  .chooseCookie__cookiesMenu {
+    font-size: 0.9em;
+  }
+  .btn_agree_cookies button {
+    width: 44.5%;
+  }
+}
+
+@media (max-width: 400px) {
+  .chooseCookie {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .chooseCookie__text h3 {
+    font-size: 1.2em;
+  }
+  .chooseCookie__text p {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .chooseCookie__text {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .chooseCookie__text h3 {
+    font-size: 1.1em;
+  }
+  .chooseCookie__text p {
+    font-size: 0.9em;
+  }
+
+  .btn_agree_cookies button {
+    font-size: 0.9em;
+    width: 100px;
+    height: 20px;
+  }
+
+  .chooseCookie__cookiesMenu {
+    font-size: 0.7em;
+  }
+  .classToClick .chooseCookie__cookiesMenu {
+    padding: 10px;
+  }
+  .chooseCookie__cookiesMenu .checkbox_block label {
+    margin-bottom: 5px;
+  }
+
+  .chooseCookie__cookiesMenu .text p {
+    margin-bottom: 5px;
+  }
+}

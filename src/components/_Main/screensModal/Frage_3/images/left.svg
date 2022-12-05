@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="38" viewBox="0 0 42 38">
+  <defs>
+    <clipPath id="clip-Pfeil_links">
+      <rect width="42" height="38"/>
+    </clipPath>
+  </defs>
+  <g id="Pfeil_links" data-name="Pfeil links" clip-path="url(#clip-Pfeil_links)">
+    <g id="down-arrow" transform="translate(41.922 -29.297) rotate(90)" opacity="0.769">
+      <g id="Gruppe_1908" data-name="Gruppe 1908" transform="translate(32.304)">
+        <path id="Pfad_2210" data-name="Pfad 2210" d="M61.238,18.389a.692.692,0,0,0-.638-.427H53.03V.691A.691.691,0,0,0,52.339,0H41.285a.691.691,0,0,0-.691.691V17.962h-7.6a.691.691,0,0,0-.489,1.179L46.288,32.969a.692.692,0,0,0,.978,0L61.089,19.142A.689.689,0,0,0,61.238,18.389Z" transform="translate(-32.304 6)" fill="#d0193c"/>
+      </g>
+    </g>
+  </g>
+</svg>

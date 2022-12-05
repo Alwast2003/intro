@@ -1,0 +1,64 @@
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+
+    @media (max-height: 631px) and (min-width: 800px) {
+        height: 631px;
+    }
+
+    @media (max-width: 800px) {
+        position: static;
+        z-index: 0;
+        background-color: rgba(0, 0, 0, 0);
+        height: auto;
+    }
+}
+
+.overlayCookie {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+
+    @media (max-width: 800px) {
+        position: static;
+        z-index: 0;
+        background-color: rgba(0, 0, 0, 0);
+        height: auto;
+    }
+}
+
+.mainModal {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 768px;
+    height: 458px;
+    background-color: #fff;
+    padding: 35px 0 70px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    @media (max-width: 800px) {
+        position: static;
+        transform: translate(0, 0);
+        background-color: rgba(0, 0, 0, 0);
+        padding: 0;
+        margin: 0 auto;
+        height: auto;
+
+        width: 100%;
+    }
+
+    & .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

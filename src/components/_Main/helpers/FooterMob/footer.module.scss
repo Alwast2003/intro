@@ -1,0 +1,110 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    width: 65px;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 25px;
+    position: absolute;
+    transform: translateY(-130%);
+
+    @media (max-width: 358px) {
+        transform: translateY(-134%);
+    }
+
+    & img {
+        margin-right: 5px;
+        background-color: #fff;width: 30px;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+
+        @media (max-width: 357px) {
+            width: 25px;
+            height: 25px;
+        }
+    }
+}
+
+.btn{
+    border-radius: 5px;
+    border-color: #0C3F6C;
+    width: max-content;
+    min-width: 150px;
+    padding: 5px 10px;
+    background: linear-gradient(to bottom right, #27648a 50%, #0C3F6C 50%);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans condensed Light';
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.btnSecond{
+    border-radius: 5px;
+    border-color: #0C3F6C;
+    width: max-content;
+    padding: 5px 10px;
+    background: linear-gradient(to bottom right, #27648a 50%, #0C3F6C 50%);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans condensed Light';
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+
+    @-moz-document url-prefix() {
+        & {font-weight:600;}
+    }
+}
+
+.nextPageBtn {
+    border-radius: 5px;
+    border-color: #0C3F6C;
+    width: max-content;
+    min-width: 150px;
+    padding: 5px 10px;
+    background: linear-gradient(to bottom right, #27648a 50%, #0C3F6C 50%);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans condensed Light';
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.btn_back{
+    color: rgb(40, 47, 143, 0.7);
+    text-decoration: underline;
+    position: absolute;
+    top: 21px;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.percent{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transform: translateY(-8px);
+    width: 40px;
+}
+
+.mobile {
+    @media (min-width: 801px) {
+        display: none;
+    }
+}
